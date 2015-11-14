@@ -1,10 +1,13 @@
 #!/usr/bin
+#!!!don't run as sudo!!!!
 #prereq
 #(Ubuntu)
 #sudo apt-get install mercurial
 #sudo pip install ipdb
 #sudo pip install jedi
 #sudo apt-get build-dep vim
+#sudo apt-get install curl
+
 #clone my .vimrc
 #git clone https://github.com/dwheelerau/myvim
 #cp $HOME/Desktop/myvim/vimrc $HOME/.vimrc

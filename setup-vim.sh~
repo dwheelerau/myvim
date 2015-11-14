@@ -5,6 +5,8 @@
 #sudo pip install ipdb
 #sudo pip install jedi
 #sudo apt-get build-dep vim
+#sudo apt-get install curl
+
 #clone my .vimrc
 #git clone https://github.com/dwheelerau/myvim
 #cp $HOME/Desktop/myvim/vimrc $HOME/.vimrc
