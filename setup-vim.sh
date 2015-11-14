@@ -6,9 +6,10 @@ sudo pip install ipdb
 sudo pip install jedi
 sudo apt-get build-dep vim
 #clone my .vimrc
-cd $HOME/Deskop 
-git clone  
-#
+cd $HOME/Desktop 
+git clone https://github.com/dwheelerau/myvim
+cp $HOME/Desktop/myvim/vimrc $HOME/.vimrc
+
 hg clone https://vim.googlecode.com/hg/ vim
 cd vim/src
 ./configure --enable-pythoninterp --with-features=huge --prefix=$HOME/opt/vim
