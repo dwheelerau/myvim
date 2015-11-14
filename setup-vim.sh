@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/usr/bin/env bash
 #!!!don't run as sudo!!!!
 #prereq
 #(Ubuntu)
