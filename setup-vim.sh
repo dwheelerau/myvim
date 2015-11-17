@@ -7,6 +7,7 @@
 #sudo pip install jedi
 #sudo apt-get build-dep vim
 #sudo apt-get install curl
+#sudo sudo pip install flake8 #pep8 support
 
 #clone my .vimrc
 #git clone https://github.com/dwheelerau/myvim
@@ -47,6 +48,10 @@ curl -so ~/.vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vi
 cd  ~/.vim/bundle
 git clone git://github.com/Lokaltog/vim-powerline.git
 
+# install folding flugin us f to fold block of F to fold all
+mkdir -p ~/.vim/ftplugin
+wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
+
 #install ctrlp
 git clone https://github.com/kien/ctrlp.vim.git
 #install jedi plugin
@@ -55,3 +60,7 @@ git clone --recursive https://github.com/davidhalter/jedi-vim.git
 #install  syntastic
 git clone https://github.com/scrooloose/syntastic.git
 
+# install git support
+cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
